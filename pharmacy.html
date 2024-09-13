@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pharmacy</title>
+    <link rel="stylesheet" href="pharmacy.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="Image/Medicare.png"></a>
+        <div class="nav-link" id="navLinks"></div>
+        <div class="nav-links">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="cr.html">Consultation Resavation</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+                <li><a href="doc.html">Doctors</a></li>
+                <li><a href="servises.html">Services</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"  aria-hidden="true" onclick="showMenu()"></i>
+    </nav>
+
+
+    <!-- Pharmacy Products Section -->
+    <section id="pharmacy">
+      <div class="container">
+        <h2 class="section-title">Our Pharmacy Products</h2>
+       
+
+        <div class="product-grid">
+          <div class="product-grid">
+            <div class="product-card">
+              <img class="product-image" src="Image/481b3cdbde095ebb65b6dbf43d1a7612f8d4f7ce-2000x2000.webp" alt="Product 1" />
+              <h3>Benadry</h3>
+              <p class="product-price">LKR 1500</p>
+              <a href="#" class="order-btn">Order Now</a>
+            </div>
+  
+            <div class="product-card">
+              <img class="product-image" src="Image/Digital-Thermometer-Medical-CE-Product-Pharmacy-Hospital.webp" alt="Product 2" />
+              <h3>Digital Thermometer</h3>
+              <p class="product-price">LKR 9700</p>
+              <a href="#" class="order-btn">Order Now</a>
+            </div>
+  
+           
+            <div class="product-card">
+              <img class="product-image" src="Image/item_5372072_427.jpg" alt="Product 3" />
+              <h3>Blood Glucose Glucometer </h3>
+              <p class="product-price">LKR 11300</p>
+              <a href="#" class="order-btn">Order Now</a>
+            </div>
+  
+            
+            <div class="product-card">
+              <img class="product-image" src="Image/Medline-Comfortable-Folding-Wheelchair-with-Swing-Back-Desk-Length-Arms-and-Elevating-Footrests-20-W-x-16-D-Seat_3380f31d-ebe0-47b7-bc58-e3e63b1fb0c4.4db7d446d5d9ba8d569a897ec5239381.webp" alt="Product 4" />
+              <h3>Medline Steel Wheelchair with Elevated Legrests</h3>
+              <p class="product-price">LKR 15400</p>
+              <a href="#" class="order-btn">Order Now</a>
+            </div>
+  
+            
+            <div class="product-card">
+              <img class="product-image" src="Image/Dettol-Antibacterial-Plaster-1-Strip-300x300.jpg" alt="Product 5" />
+              <h3>Dettol Plasters</h3>
+              <p class="product-price">LKR 900</p>
+              <a href="#" class="order-btn">Order Now</a>
+            </div>
+
+            <div class="product-grid">
+              <div class="product-card">
+                <img class="product-image" src="Image/PETC_AluminiumForearmCrutchesAdult@FU-234354@300x300.jpg" alt="Product 1" />
+                <h3>Crutches</h3>
+                <p class="product-price">LKR 1000</p>
+                <a href="#" class="order-btn">Order Now</a>
+              </div>
+    
+              <div class="product-card">
+                <img class="product-image" src="Image/AS175A-Aero-Spacers-01_460x@2x.webp" alt="Product 2" />
+                <h3>Medicine Name 2</h3>
+                <p class="product-price">LKR 1700</p>
+                <a href="#" class="order-btn">Order Now</a>
+              </div>
+    
+              
+              <div class="product-card">
+                <img class="product-image" src="Image/QP-SFY-FOS-23102701-001_1000X.webp" alt="Product 3" />
+                <h3>Omega 3 Fish Oil</h3>
+                <p class="product-price">LKR 1300</p>
+                <a href="#" class="order-btn">Order Now</a>
+              </div>
+    
+              
+              <div class="product-card">
+                <img class="product-image" src="Image/SN0004-1.webp" alt="Product 4" />
+                <h3>TERUMO SYRINGE 1 ml</h3>
+                <p class="product-price">LKR 1400</p>
+                <a href="#" class="order-btn">Order Now</a>
+              </div>
+    
+              
+              <div class="product-card">
+                <img class="product-image" src="Image/Salonpas-Spray-300x300.jpg" alt="Product 5" />
+                <h3>SALONPAS PAIN RELIEF SPRAY 80ml</h3>
+                <p class="product-price">LKR 2100</p>
+                <a href="#" class="order-btn">Order Now</a>
+              </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="pharmacy-form">
+      <div class="container">
+        <h2 class="section-title">Order Your Medicines</h2>
+        <form action="#" method="post" class="pharmacy-form">
+          <label for="customer-name">Full Name:</label>
+          <input type="text" id="customer-name" name="customer-name" required />
+
+          <label for="medicine">Select Medicine:</label>
+          <select id="medicine" name="medicine">
+            <option value="medicine1">Medicine 1 - LKR 500</option>
+            <option value="medicine2">Medicine 2 - LKR 700</option>
+            <option value="medicine3">Medicine 3 - LKR 1300</option>
+            <option value="medicine4">Medicine 4 - LKR 1400</option>
+            <option value="medicine4">Medicine 5 - LKR 1400</option>
+            <option value="medicine4">Medicine 6 - LKR 1400</option>
+            <option value="medicine4">Medicine 7 - LKR 1400</option>
+           
+          </select>
+
+          <label for="quantity">Quantity:</label>
+          <input
+            type="number"
+            id="quantity"
+            name="quantity"
+            min="1"
+            max="10"
+            required
+          />
+
+          <label for="address">Delivery Address:</label>
+          <textarea id="address" name="address" rows="4" required></textarea>
+
+          <label for="contact">Contact Number:</label>
+          <input
+            type="tel"
+            id="contact"
+            name="contact"
+            required
+            pattern="[0-9]{10}"
+          />
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required />
+
+          <button type="submit" class="order-btn">Place Order</button>
+        </form>
+      </div>
+    </section>
+
+
+
+    
+    <footer>
+        <section class="footer">
+          <ul class="social_icon">
+            <li>
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+          </ul>
+          <p>&copy; 2024 Medicare Hospital. All rights reserved.</p>
+        </section>
+      </footer>
+  
+      
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+    </body>
+  </html>
+  
